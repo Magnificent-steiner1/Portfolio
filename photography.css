@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#add-photo-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+#add-photo-btn:hover {
+    background-color: #45a049;
+}
+
+#photo-form input[type="text"],
+#photo-form input[type="file"],
+#photo-form textarea,
+#photo-form button[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#photo-form input[type="file"] {
+    width: 100%;
+}
+
+#photo-form textarea {
+    height: 100px;
+}
+
+#photo-form button[type="submit"] {
+    width: 100%;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#photo-form button[type="submit"]:hover {
+    background-color: #0073e6;
+}
+
+.hidden {
+    display: none;
+}
+
+.photos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.photos th,
+.photos td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.photos th {
+    background-color: #f2f2f2;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
